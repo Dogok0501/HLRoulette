@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SSRB
+  m_EditorClassIdentifier: 
+  m_GroupName: SSRB
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ca5611321b5b85c4485b5847f9cb0531
+  m_SerializeEntries:
+  - m_GUID: 0fa2ee324394ad94b9816bc9ca209611
+    m_Address: SSRB_3 Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - SSRB_3
+  - m_GUID: f8a7de6d3eb4a2a48bf2546dc5dc422b
+    m_Address: SSRB_2 Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - SSRB_2
+  - m_GUID: e1be183a9014fa64ab44bb64f4feaf97
+    m_Address: SSRB_1 Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - SSRB_1
+  - m_GUID: e917c14f4ce700642aafc8598010fa9f
+    m_Address: SSRB FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Model
+    - SSRBs
+  - m_GUID: d5ba09a56fbf1fe439ce96d88d1b63c5
+    m_Address: SSRB Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Texture
+    - SSRBs
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a3acfbcb49b24cf42bb561766864622e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 60934e20c14d0194abb9af429e95cfb1, type: 2}
+    - {fileID: 11400000, guid: 9a1c02e0abe675b4abbed006850b29c8, type: 2}

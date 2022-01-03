@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Nekko
+  m_EditorClassIdentifier: 
+  m_GroupName: Nekko
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cad433a2634563243822f7b90e7706f1
+  m_SerializeEntries:
+  - m_GUID: 0a6733ff6a7981d499a374bd4698d507
+    m_Address: Nekko Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Texture
+    - Nekko
+  - m_GUID: 04394e922af59154abe9c664423bd879
+    m_Address: Nekko FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Model
+    - Nekko
+  - m_GUID: 170108f1078af7b46ad47f3d57a37fb1
+    m_Address: Nekko Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - Nekko
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a3acfbcb49b24cf42bb561766864622e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9c54719e536e6a745a46a790de5052f3, type: 2}
+    - {fileID: 11400000, guid: e52d8dd954696fe49a172e61a7159700, type: 2}

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Usada Pekora
+  m_EditorClassIdentifier: 
+  m_GroupName: Usada Pekora
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b161ff9f24e349d4a91e540e08037405
+  m_SerializeEntries:
+  - m_GUID: b30d4eba65e49bd4c90e8492c38a24d9
+    m_Address: Usada Pekora Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Texture
+    - Usada Pekora
+  - m_GUID: dab7bb5760ebd894e88349a5f301150d
+    m_Address: Usada Pekora Dissolve Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Dissolve Material
+    - Usada Pekora
+  - m_GUID: 7fc3b83ce51b48c43be58e828424f21d
+    m_Address: Usada Pekora Default Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Default Material
+    - Usada Pekora
+  - m_GUID: 21b9df9cd9f78ca4fba0f91b4ff5a28e
+    m_Address: Usada Pekora FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Model
+    - Usada Pekora
+  - m_GUID: 3db1c06109d8ea3418d83b2dc3c403d7
+    m_Address: Usada Pekora Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - Usada Pekora
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a3acfbcb49b24cf42bb561766864622e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dbc10578fce8a7a49a2aca1af4c11d2d, type: 2}
+    - {fileID: 11400000, guid: c23c2ebfb3e94984a89a6512d32e8309, type: 2}

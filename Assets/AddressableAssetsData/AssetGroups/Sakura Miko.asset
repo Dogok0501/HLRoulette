@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sakura Miko
+  m_EditorClassIdentifier: 
+  m_GroupName: Sakura Miko
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cb8a8c9e26e0e854fa8d261dcfc0ac76
+  m_SerializeEntries:
+  - m_GUID: 0ab895c718fc44244a865d83b0145f41
+    m_Address: Sakura Miko Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Texture
+    - Sakura Miko
+  - m_GUID: 8587ea527d885f943ad80292c88f90d0
+    m_Address: Sakura Miko Dissolve Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Dissolve Material
+    - Sakura Miko
+  - m_GUID: 9055e94cb3c610c46b2340040c5bfee9
+    m_Address: Sakura Miko Default Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Default Material
+    - Sakura Miko
+  - m_GUID: 3067a8c15dea7fb4b9d6bf8c3281995c
+    m_Address: Sakura Miko FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Model
+    - Sakura Miko
+  - m_GUID: c33bfcb1104ad6241b8d2e09300fe2b3
+    m_Address: Sakura Miko Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - Sakura Miko
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a3acfbcb49b24cf42bb561766864622e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 257e44a1226905440805d9d033a6bb4e, type: 2}
+    - {fileID: 11400000, guid: f744fe60706317747abd05a9d367cc90, type: 2}

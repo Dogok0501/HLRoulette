@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Omaru Polka
+  m_EditorClassIdentifier: 
+  m_GroupName: Omaru Polka
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3f66ad9621737b5448e903fc0f1e7035
+  m_SerializeEntries:
+  - m_GUID: b743f067635276140b58d88f5d067de3
+    m_Address: Omaru Polka Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Texture
+    - Omaru Polka
+  - m_GUID: d43e2c5b737bc79459140e5efb9def67
+    m_Address: Omaru Polka Dissolve Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Dissolve Material
+    - Omaru Polka
+  - m_GUID: 202ac1bde7542ae4b80eb81112433b1d
+    m_Address: Omaru Polka Default Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Default Material
+    - Omaru Polka
+  - m_GUID: 2083d56cf20226d4cb89c150fbc0bdb1
+    m_Address: Omaru Polka FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Model
+    - Omaru Polka
+  - m_GUID: a06840748af9595409d677d5632ac3d0
+    m_Address: Omaru Polka Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - Omaru Polka
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a3acfbcb49b24cf42bb561766864622e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1cea83a479d7c9247a1e0fc3aab986c1, type: 2}
+    - {fileID: 11400000, guid: 6969f7e6d6ec80242b92c41016ffc610, type: 2}

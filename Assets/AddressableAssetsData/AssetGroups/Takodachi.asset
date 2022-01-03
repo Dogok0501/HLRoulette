@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Takodachi
+  m_EditorClassIdentifier: 
+  m_GroupName: Takodachi
+  m_Data:
+    m_SerializedData: []
+  m_GUID: de6e4c2e762fdab46b0252b7593a0156
+  m_SerializeEntries:
+  - m_GUID: f7ae3f9eb5ddc434c9bca58966f33b7c
+    m_Address: Takodachi Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Texture
+    - Takodachi
+  - m_GUID: 6ed06666e4501f045aa6afe599c4dddc
+    m_Address: Takodachi Default Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Default Material
+    - Takodachi
+  - m_GUID: b7b03f8fc3c8fcf45aa09665e2b83517
+    m_Address: Takodachi FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Model
+    - Takodachi
+  - m_GUID: 0ef61c77d73b0b548a5347fac6ec1ebb
+    m_Address: Takodachi Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - Takodachi
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a3acfbcb49b24cf42bb561766864622e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8a5fb1bbecc6adf40b681326b4c98964, type: 2}
+    - {fileID: 11400000, guid: ff3eda620056ccf48a8e55c2a5d2aea3, type: 2}

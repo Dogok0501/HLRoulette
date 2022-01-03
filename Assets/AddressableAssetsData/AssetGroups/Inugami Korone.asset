@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Inugami Korone
+  m_EditorClassIdentifier: 
+  m_GroupName: Inugami Korone
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8ac06289e8c072942a1c4cebd5852bfe
+  m_SerializeEntries:
+  - m_GUID: b64639a96d4bcfc41b7a8ec3828d3d78
+    m_Address: Inugami Korone Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Texture
+    - Inugami Korone
+  - m_GUID: 7addc3bb63a2c2e4d8b8375386c028c5
+    m_Address: Inugami Korone Dissolve Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Dissolve Material
+    - Inugami Korone
+  - m_GUID: e9796057ba51e504a86ae1a6a492d644
+    m_Address: Inugami Korone Default Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Default Material
+    - Inugami Korone
+  - m_GUID: 7fc7ec22601c9094a9aa8aa1e50be778
+    m_Address: Inugami Korone FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Model
+    - Inugami Korone
+  - m_GUID: 43da2e9eb24257743b89d34cd9abaa31
+    m_Address: Inugami Korone Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - Inugami Korone
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a3acfbcb49b24cf42bb561766864622e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7096913d3462d70448a0fc4ad9782e7b, type: 2}
+    - {fileID: 11400000, guid: 29083aaf5e6778042bf7e145081eb518, type: 2}

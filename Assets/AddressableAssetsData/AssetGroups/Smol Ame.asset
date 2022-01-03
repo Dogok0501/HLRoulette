@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Smol Ame
+  m_EditorClassIdentifier: 
+  m_GroupName: Smol Ame
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5dbf97064af9656489ed935b6b55d618
+  m_SerializeEntries:
+  - m_GUID: 5c19d16052fe95f41880f4aad389a136
+    m_Address: Smol Ame Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Texture
+    - Smol Ame
+  - m_GUID: 780a567a58b227f45b85899db495ceaa
+    m_Address: Smol Ame Default Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Default Material
+    - Smol Ame
+  - m_GUID: e969794680bc4734fa50b80c3fa634f5
+    m_Address: Smol Ame FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Model
+    - Smol Ame
+  - m_GUID: 683fcd23c0c8a9c4da6b018167de1294
+    m_Address: Smol Ame Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - Smol Ame
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a3acfbcb49b24cf42bb561766864622e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fcf92ce247dc02548a76aad255b5e012, type: 2}
+    - {fileID: 11400000, guid: dd5199f9f41226745b61a3060fca9dda, type: 2}

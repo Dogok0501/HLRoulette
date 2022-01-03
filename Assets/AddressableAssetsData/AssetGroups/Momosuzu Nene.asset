@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Momosuzu Nene
+  m_EditorClassIdentifier: 
+  m_GroupName: Momosuzu Nene
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d286ecbce6907634fbce160b196dac01
+  m_SerializeEntries:
+  - m_GUID: b1e3e907bf7b0424286b7db6152d30c2
+    m_Address: Momosuzu Nene Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Texture
+    - Momosuzu Nene
+  - m_GUID: b96326eb0dc07f341a8c786b96f37f2e
+    m_Address: Momosuzu Nene Dissolve Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Dissolve Material
+    - Momosuzu Nene
+  - m_GUID: 6d8534cefad4d424b9ab2869e53fb627
+    m_Address: Momosuzu Nene Default Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Default Material
+    - Momosuzu Nene
+  - m_GUID: 5a97765f054203b48b7b5a8a27fc6f17
+    m_Address: Momosuzu Nene FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Model
+    - Momosuzu Nene
+  - m_GUID: be9d3b56f54c5db4cae9b343ad9b3fb0
+    m_Address: Momosuzu Nene Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - Momosuzu Nene
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a3acfbcb49b24cf42bb561766864622e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6d5cc5db24bfe9a4b8e960ec785c2853, type: 2}
+    - {fileID: 11400000, guid: 1b7269798d9978d4d9e9cdbf754142e3, type: 2}

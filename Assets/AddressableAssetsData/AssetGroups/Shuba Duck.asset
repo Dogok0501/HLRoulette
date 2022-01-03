@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Shuba Duck
+  m_EditorClassIdentifier: 
+  m_GroupName: Shuba Duck
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f7eb4da737069544694e5f02c261641d
+  m_SerializeEntries:
+  - m_GUID: ff66cc5b97234c442ae485a13c5817ad
+    m_Address: Shuba Duck Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - Shuba Duck
+  - m_GUID: 6344dd0cfc152b0458b1bf6c666154d8
+    m_Address: Shuba Duck FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Model
+    - Shuba Duck
+  - m_GUID: 6fadf88b4b08ad5479b6f5d21b25d279
+    m_Address: Shuba Duck Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Texture
+    - Shuba Duck
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a3acfbcb49b24cf42bb561766864622e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d2216c6a697f78e41b5874afdaa1f1ad, type: 2}
+    - {fileID: 11400000, guid: 4739a0b9c440e2f4db84cf425926d00e, type: 2}

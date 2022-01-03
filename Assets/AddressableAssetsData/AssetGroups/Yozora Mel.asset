@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Yozora Mel
+  m_EditorClassIdentifier: 
+  m_GroupName: Yozora Mel
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b5e94ec19dcb440479ded4460e28debe
+  m_SerializeEntries:
+  - m_GUID: bd9fef297ebfc3f46a96e3e366d2b84c
+    m_Address: Yozora Mel Texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Texture
+    - Yozora Mel
+  - m_GUID: 412c15701aee4c544aa2eac5deabdc91
+    m_Address: Yozora Mel Dissolve Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Dissolve Material
+    - Yozora Mel
+  - m_GUID: 998abb4ecc6c41849a2f35118218f71a
+    m_Address: Yozora Mel Default Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Default Material
+    - Yozora Mel
+  - m_GUID: 4f37d5e519af3a3459dac1ddb7751f8d
+    m_Address: Yozora Mel FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Model
+    - Yozora Mel
+  - m_GUID: 3518606d8df06854fbda2674bcd7d193
+    m_Address: Yozora Mel Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Figure Prefab
+    - Yozora Mel
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a3acfbcb49b24cf42bb561766864622e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d475b17fc76c6204fa3f7bfc7abaae89, type: 2}
+    - {fileID: 11400000, guid: 20d2af39914cbc74495d7c8f667aa0b0, type: 2}

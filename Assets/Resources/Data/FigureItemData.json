@@ -1,0 +1,94 @@
+{
+  "figureItems": [
+    {
+      "index": "1000",
+      "name": "Momosuzu Nene",
+      "rarity": "Ultra",
+      "sell_earn": "8"
+    },
+    {
+      "index": "1001",
+      "name": "Sakura Miko",
+      "rarity": "Ultra",
+      "sell_earn": "8"
+    },
+    {
+      "index": "1002",
+      "name": "Omaru Polka",
+      "rarity": "Rare",
+      "sell_earn": "4"
+    },
+    {
+      "index": "1003",
+      "name": "Houshou Marine",
+      "rarity": "Rare",
+      "sell_earn": "4"
+    },
+    {
+      "index": "1004",
+      "name": "Yukihana Lamy",
+      "rarity": "Rare",
+      "sell_earn": "4"
+    },
+    {
+      "index": "1005",
+      "name": "Inugami Korone",
+      "rarity": "Rare",
+      "sell_earn": "4"
+    },
+    {
+      "index": "1006",
+      "name": "Yozora Mel",
+      "rarity": "Rare",
+      "sell_earn": "4"
+    },
+    {
+      "index": "1007",
+      "name": "Usada Pekora",
+      "rarity": "Rare",
+      "sell_earn": "4"
+    },
+    {
+      "index": "1008",
+      "name": "Nekko",
+      "rarity": "Normal",
+      "sell_earn": "2"
+    },
+    {
+      "index": "1009",
+      "name": "Takodachi",
+      "rarity": "Normal",
+      "sell_earn": "2"
+    },
+    {
+      "index": "1010",
+      "name": "SSRB_1",
+      "rarity": "Normal",
+      "sell_earn": "2"
+    },
+    {
+      "index": "1011",
+      "name": "SSRB_2",
+      "rarity": "Normal",
+      "sell_earn": "2"
+    },
+    {
+      "index": "1012",
+      "name": "SSRB_3",
+      "rarity": "Normal",
+      "sell_earn": "2"
+    },
+    {
+      "index": "1013",
+      "name": "Shuba Duck",
+      "rarity": "Normal",
+      "sell_earn": "2"
+    },
+    {
+      "index": "1014",
+      "name": "Smol Ame",
+      "rarity": "Normal",
+      "sell_earn": "2"
+    }
+  ]
+}
