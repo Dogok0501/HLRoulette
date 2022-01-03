@@ -9,6 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/[Ss]erverData/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -30,6 +31,8 @@
 [Aa]ssets/Resource/Sounds*
 [Aa]ssets/Resource/Textures*
 [Aa]ssets/Animations*
+[Aa]ssets/Videos*
+
 
 # Visual Studio cache directory
 .vs/
