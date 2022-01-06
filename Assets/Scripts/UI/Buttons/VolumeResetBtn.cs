@@ -3,16 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class VolumeResetBtn : MonoBehaviour
+public class VolumeResetBtn : BaseBtn
 {
     [SerializeField] Slider[] sliders;
 
-    private void Start()
-    {
-        GetComponent<Button>().onClick.AddListener(delegate { ResetVolume(); });
-    }
-
-    void ResetVolume()
+    protected override void ButtonFunction()
     {
         Managers.Sound.SetSFXVolume(1);
         Managers.Sound.SetBGMVolume(1);
