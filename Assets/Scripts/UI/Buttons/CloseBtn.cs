@@ -3,16 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CloseBtn : MonoBehaviour
+public class CloseBtn : BaseBtn
 {
-    [SerializeField] GameObject targetWindow;
+    [SerializeField] GameObject targetWindow;       
 
-    void Start()
-    {
-        GetComponent<Button>().onClick.AddListener(delegate { CloseWindow(); });
-    }
-
-    void CloseWindow()
+    protected override void ButtonFunction()
     {
         Managers.Sound.PlaySFX(Define.SFX.Click);
         targetWindow.SetActive(false);

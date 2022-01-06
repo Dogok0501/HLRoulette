@@ -3,16 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ReturnBtn : MonoBehaviour
+public class ReturnBtn : BaseBtn
 {
     [SerializeField] GameObject fadeinImage;
 
-    void Start()
-    {
-        GetComponent<Button>().onClick.AddListener(delegate { StarterReturnToRoomScene(); });
-    }
-
-    void StarterReturnToRoomScene()
+    protected override void ButtonFunction()
     {
         StartCoroutine(ReturnToRoomScene());
     }
@@ -24,4 +19,6 @@ public class ReturnBtn : MonoBehaviour
         Managers.Sound.StopBGM(Define.BGM.Minigame_TitleLoop);
         LoadingAsyncManager.LoadScene(Define.Scene.Room);
     }
+
+    
 }

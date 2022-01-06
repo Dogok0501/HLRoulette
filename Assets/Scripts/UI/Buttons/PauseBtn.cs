@@ -3,16 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PauseBtn : MonoBehaviour
+public class PauseBtn : BaseBtn
 {
     [SerializeField] GameObject targetWindow;
 
-    void Start()
-    {
-        GetComponent<Button>().onClick.AddListener(delegate { PauseGame(); });
-    }
-
-    void PauseGame()
+    protected override void ButtonFunction()
     {
         Managers.Sound.PlaySFX(Define.SFX.Click);
         targetWindow.SetActive(true);

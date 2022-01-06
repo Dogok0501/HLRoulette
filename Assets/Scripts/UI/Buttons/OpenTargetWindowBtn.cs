@@ -3,18 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class OpenTargetWindowBtn : MonoBehaviour
+public class OpenTargetWindowBtn : BaseBtn
 {
-    [SerializeField] GameObject targetWindow;
+    [SerializeField] GameObject targetWindow;    
 
-    void Start()
-    {        
-        GetComponent<Button>().onClick.AddListener(delegate { ActiveWindow(); });
-    }
-
-    void ActiveWindow()
+    protected override void ButtonFunction()
     {
         Managers.Sound.PlaySFX(Define.SFX.Click);
-        targetWindow.SetActive(true);        
+        targetWindow.SetActive(true);
     }
 }
