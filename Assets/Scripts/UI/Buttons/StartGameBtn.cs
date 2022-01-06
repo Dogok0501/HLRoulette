@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StartGameBtn : BaseBtn
+public class StartGameBtn : MonoBehaviour
 {
     [SerializeField] GameObject fadeinImage;
 
-    protected override void ButtonFunction()
+    private void Start()
+    {
+        GetComponent<Button>().onClick.AddListener(delegate { ActiveFadeInImage(); });
+    }
+
+    void ActiveFadeInImage()
     {
         fadeinImage.SetActive(true);
 
@@ -19,5 +24,5 @@ public class StartGameBtn : BaseBtn
     private void LoadMainScene()
     {
         LoadingAsyncManager.LoadScene(Define.Scene.Main);
-    }    
+    }
 }

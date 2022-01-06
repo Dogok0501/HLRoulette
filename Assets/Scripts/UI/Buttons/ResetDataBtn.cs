@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ResetDataBtn : BaseBtn
+public class ResetDataBtn : MonoBehaviour
 {
     [SerializeField] GameObject fadeinImage;
 
-    protected override void ButtonFunction()
+    void Start()
+    {
+        GetComponent<Button>().onClick.AddListener(delegate { ResetAllDataCaller(); });
+    }
+
+    void ResetAllDataCaller()
     {
         StartCoroutine(ResetAllData());
     }
@@ -19,5 +24,5 @@ public class ResetDataBtn : BaseBtn
         fadeinImage.SetActive(true);
         yield return Managers.Coroutine.WaitForSecondsEx(2f);
         LoadingAsyncManager.LoadScene(Define.Scene.Title);
-    }    
+    }
 }

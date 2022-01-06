@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class QuitBtn : BaseBtn
+public class QuitBtn : MonoBehaviour
 {
-    protected override void ButtonFunction()
+    void Start()
+    {
+        GetComponent<Button>().onClick.AddListener(delegate { QuitGame(); });
+    }
+
+    void QuitGame()
     {
         Managers.Sound.PlaySFX(Define.SFX.Click);
 #if UNITY_EDITOR

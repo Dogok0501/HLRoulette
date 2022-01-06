@@ -7,17 +7,17 @@ using UnityEngine.UI;
 public class ItemData : MonoBehaviour, ISelectHandler
 {
     public FigureItem item;
-    [SerializeField] BaseInventory inventory;
+    [SerializeField] IInventory inventory;
     [SerializeField] EventSystem eventSystem;
 
     public void Start()
     {
         eventSystem = GameObject.Find("EventSystem").GetComponent<EventSystem>();
-        inventory = transform.parent.parent.parent.GetComponent<BaseInventory>();
+        inventory = transform.parent.parent.parent.GetComponent<IInventory>();
     }
 
     public void OnSelect(BaseEventData eventData)
     {
-        BaseInventory.lastSeleted = eventSystem.currentSelectedGameObject;
+        IInventory.lastSeleted = eventSystem.currentSelectedGameObject;
     }
 }

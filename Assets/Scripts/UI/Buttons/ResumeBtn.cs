@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ResumeBtn : BaseBtn
+public class ResumeBtn : MonoBehaviour
 {
     [SerializeField] GameObject targetWindow;
 
-    protected override void ButtonFunction()
+    void Start()
+    {
+        GetComponent<Button>().onClick.AddListener(delegate { ResumeGame(); });
+    }
+
+    void ResumeGame()
     {
         Managers.Sound.PlaySFX(Define.SFX.Click);
         targetWindow.SetActive(false);
         Time.timeScale = 1;
-    }
+    }    
 }
