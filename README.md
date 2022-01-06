@@ -14,7 +14,7 @@
 - 엔진 : `Unity` 2020
 
 ## 😽 플레이 영상
-https://youtu.be/ICIl8hh0_fY
+https://youtu.be/RfBUWyF-tJA
 
 ------------
 
