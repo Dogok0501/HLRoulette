@@ -1,4 +1,4 @@
-# 🎲 Hololive Rullet
+# 🎲 Hololive Roulette
 
 > 🎮 모바일 게임을 하면서 가장 엔돌핀이 많이 분비되는 때, 바로 가챠! 
 스팀 게임 <I Can't Believe It's Not Gambling>에서 영감을 받고 Hololive 소속 Vtuber를 
