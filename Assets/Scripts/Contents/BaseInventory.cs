@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class BaseInventory : MonoBehaviour
 {
+    // Git Test
     int slotAmount;
 
     public List<GameObject> slots = new List<GameObject>();
